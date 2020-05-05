@@ -21,7 +21,7 @@ node
     {
         sh "${mavenhome}/bin/mvn deploy" 
     }
-    */
+    /*
     stage ('Deploy appinto tomcat')
     {
         sshagent(['7d2b913d-7877-4527-9823-ab32f881fac3']) {
